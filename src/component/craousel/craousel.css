@@ -1,0 +1,48 @@
+ .carousel{
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+
+}
+.yz{
+  max-height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+} 
+.content{
+  position: absolute;
+  margin-top: 20%;
+  color: yellow;
+  margin-left: 2%;
+}
+.uni{
+  font-size: 3rem;
+  font-family: 'lemonada',sans-serif;
+  font-weight: bolder;
+  text-shadow: .1rem .1rem .3rem #333;
+}
+
+.thieduni{
+font-size: 1.6rem;
+color: white;
+font-family: 'lemonada',sans-serif;
+text-shadow: .1rem .1rem .3rem #333;
+}
+.btnuni{
+  outline: none;
+  border: none;
+  color: black;
+  background-color: yellow;
+  width: 10rem;
+  font-family: 'lemonada',sans-serif;
+  
+}
