@@ -1,0 +1,180 @@
+
+
+ 
+  
+
+
+.cardBoxl {
+  float: left;
+  font-size: 1.2em;
+  margin: 2% 0 0 3%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 29%;
+ 
+}
+
+.cardBoxl:hover .cardl {
+  transform: rotateY( 180deg);
+}
+
+.cardl {
+  background: #222;
+  cursor: default;
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+}
+
+
+
+.cardl .front,
+.cardl .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.cardl .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+
+}
+
+.cardl .back {
+  transform: rotateY( 180deg);
+}
+
+.cardl .back a {
+
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.cardl .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBoxl:nth-child(1) .cardl .back {
+  background: black;
+}
+
+.cardBoxl:nth-child(2) .cardl .back {
+  background: black;
+}
+
+.cardBoxl:nth-child(3) .cardl .back {
+  background: black;
+}
+
+
+.cardBoxl:nth-child(4) .cardl .back {
+  background: black;
+}
+
+
+.cardBoxl:nth-child(5) .cardl .back {
+  background: black;
+}
+
+
+.cardBoxl:nth-child(6) .cardl .back {
+  background: black;
+}
+
+
+.cardBoxl:nth-child(2) .cardl {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBoxl:nth-child(3) .cardl {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+.cardBoxl:nth-child(4) .cardl {
+  -webkit-animation: giro 2.5s 1;
+  animation: giro 2.5s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBoxl {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .cardl {
+    height: 285px;
+  }
+  .cardBoxl:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBoxl {
+    width: 94.5%;
+  }
+  .cardl {
+    height: 260px;
+  }
+}
+.ilo{
+  width: 100%;
+  height: 260px;
+  border: 4px solid  black ;
+
+}
+.f{
+  font-size: 70px;
+  margin-bottom: 4%;
+  font-family: 'lemonada',sans-serif;
+  font-weight: bolder;
+  text-shadow: .1rem .1rem .3rem #333;
+  color: yellow;
+}
+.tj{
+ color: black;
+}
+.star{
+  width: 180px;
+  height: 40px;
+}

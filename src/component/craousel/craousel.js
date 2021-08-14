@@ -2,12 +2,15 @@ import React from 'react'
 import img1 from '../../assets/1.jpg'
 import img2 from '../../assets/2.jpg'
 import img3 from '../../assets/3.jpg'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 import Nav from '../navbar/navbar'
 
 import './craousel.css'
 
 function Craousel(){
+
+
+ 
     return(
       <div>
      <div> <Nav/></div>
@@ -23,21 +26,21 @@ function Craousel(){
     <div class="col-md-8 ml-md-5 text-md-left content"> <h1 className="uni">Unique food corner</h1>
     
     <p className="thieduni"><i>enjoy the marvelous taste  <p>unique food </p></i></p>
-    <NavLink to = "/home1"style={{ color: 'black', textDecoration:'none' }}><button className="btnuni"><i>Get start</i></button></NavLink></div>
+    <NavLink to = "home2"><button className="btnuni"><i>Get start</i></button></NavLink></div>
       <img src={img1} class="d-block w-100 yz" alt="chips"/>
     </div>
     <div class="carousel-item">
     <div class="col-md-8 ml-md-5 text-md-left content"> <h1 className="uni">Unique food corner</h1>
     
     <p className="thieduni"><i>enjoy the marvelous taste  <p>unique food </p></i></p>
-    <NavLink to = "/home1"style={{ color: 'black', textDecoration:'none' }}><button className="btnuni"> <i>Get start</i></button></NavLink></div>
+    <NavLink to = "/home"><button className="btnuni"> <i>Get start</i></button></NavLink></div>
       <img src={img2} class="d-block w-100 yz" alt="burger"/>
     </div>
     <div class="carousel-item">
     <div class="col-md-8 ml-md-5 text-md-left content"> <h1 className="uni">Unique food corner</h1>
     
     <p className="thieduni"><i>enjoy the marvelous taste  <p>unique food </p></i></p>
-    <NavLink to = "/home1"style={{ color: 'black', textDecoration:'none' }}><button className="btnuni" ><i>Get start</i></button></NavLink></div>
+    <NavLink to = "/home"><button className="btnuni" ><i>Get start</i></button></NavLink></div>
       <img src={img3} class="d-block w-100 yz" alt="samose"/>
     </div>
   </div>

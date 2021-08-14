@@ -3,6 +3,7 @@ import imge1 from '../../assets/1.jpg'
 import imge2 from '../../assets/2.jpg'
 import imge3 from '../../assets/3.jpg'
 import Nav from '../../component/navbar/navbar'
+import Footer from '../footer/footer'
 import './home.css'
 
 function Home(){
@@ -11,7 +12,7 @@ function Home(){
             <div><Nav/></div>
 <div className="backcolor">
 
-<div class="heading text-center">
+{/* <div class="heading text-center">
 <h1>our <span>special</span></h1>
 <p>I like people who love to eat. They’re the best kind in the world..</p>
 </div>
@@ -22,7 +23,7 @@ function Home(){
             <img src={imge1} class="bd-placeholder-img card-img-top kc"/>
 
             <div class="card-body">
-              <p class="card-text">Food is any  consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients.</p>
+              <p class="card-text">Food is any  consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                  
@@ -68,6 +69,79 @@ function Home(){
 
 
 </div>
+
+<div> */}
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col martop">
+          <div class="card shadow-sm">
+          <img src={imge1} class="bd-placeholder-img card-img-top kc"/>
+
+            <div class="card-body ">
+              <p class="card-text">Food is any  consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and..</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col martop">
+          <div class="card shadow-sm">
+          <img src={imge2} class="bd-placeholder-img card-img-top kc"/>
+
+            <div class="card-body">
+              <p class="card-text">Food is any  consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col martop">
+          <div class="card shadow-sm">
+          <img src={imge3} class="bd-placeholder-img card-img-top kc"/>
+
+            <div class="card-body">
+              <p class="card-text">Food is any  consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and..</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div><Footer/></div>
+
 </div>
     )
 }

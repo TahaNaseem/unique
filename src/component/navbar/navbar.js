@@ -9,7 +9,7 @@ function Nav(){
         <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img className="log" src={logo} /></a>
+   <a class="navbar-brand" href="#"><img className="log" src={logo} /></a>
     <button class="navbar-toggler bor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class=""><img className="i"src={icon}/></span>
     </button>
@@ -22,10 +22,10 @@ function Nav(){
         <a class="nav-link active" aria-current="page" href="#"><NavLink to = "/about"style={{ color: 'black', textDecoration:'none' }}><b>About</b></NavLink></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#"><b>Dishes</b></a>
+        <a class="nav-link active" aria-current="page" href="#"><NavLink to = "/dish"style={{ color: 'black', textDecoration:'none' }}><b>Dishes</b></NavLink></a>
         </li>
         <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#"><b>Contact</b></a>
+        <a class="nav-link active" aria-current="page" href="#"> <NavLink to = "/contact"style={{ color: 'black', textDecoration:'none' }}><b>Contact</b></NavLink></a>
         </li>
       </ul>
     </div>
